@@ -2,7 +2,7 @@ import asyncio
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo.server_api import ServerApi
 
-MONGODB_URL = "mongodb+srv://freshmart_user:eASMfdl5SXeGqOfx@hack.8syianl.mongodb.net/FreshMart?retryWrites=true&w=majority&appName=hack"
+MONGODB_URL = ""
 
 async def check_database():
     client = AsyncIOMotorClient(MONGODB_URL, server_api=ServerApi('1'))
